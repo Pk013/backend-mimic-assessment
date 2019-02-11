@@ -60,7 +60,7 @@ def mimic_dict(filename):
         if not seperate in mimic_dict:
             mimic_dict[seperate] = [word]
         else:
-            mimic_dict[seperate].append[word]
+            mimic_dict[seperate].append(word)
         seperate = word
     return mimic_dict
 
